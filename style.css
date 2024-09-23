@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.container-fluid a{
+    /* background-color: red; */
+    font-size: 20px;
+    font-weight: 600;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    /* background-color: rgb(18, 224, 214); */
+}
+
+.carousel-item img{
+    max-width: 100%;
+    max-height: 70vh;
+    transform: translate(-50% );
+    margin: 0 50%;
+    object-fit:cover;
+}
+.accordion-flush:hover{
+    border: 2px solid bisque;
+    outline: 2px solid rgb(17, 148, 255);
+    
+  }
+  .card{
+    max-width: 100%;
+    min-height: 60%;
+    margin-bottom: 12px;
+  }
+ 
+
+.dam img{
+    /* box-shadow: 0 0 3px 3px rgb(94, 94, 202); */
+    width: 60vh;
+    height: 19rem;
+    border-radius: 50%;
+    margin: 46px auto;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.dam img:hover{
+    box-shadow: 0 0 3px 3px rgb(94, 94, 202);
+    transform: scale(1.03);
+
+}
+ 
+.card img{
+    max-height: 15vw;
+    min-width: 17vw;
+}
