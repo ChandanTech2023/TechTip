@@ -44,17 +44,27 @@ h1{
     width: 60vh;
     height: 19rem;
     border-radius: 50%;
-    margin: 46px auto;
+    margin: 35px auto;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+}
+.dam{
+    margin: 22px auto;
+   
 }
 .dam img:hover{
     box-shadow: 0 0 3px 3px rgb(94, 94, 202);
     transform: scale(1.03);
 
 }
+.box{
+    min-width: 333px;
+    overflow: hidden;
+}
  
-.card img{
-    max-height: 15vw;
-    min-width: 17vw;
+.box img{
+    height: 133px;
+    width: 143px;
+    padding: 1rem 1rem ;
+    background-color: rgb(141, 141, 240);
 }
